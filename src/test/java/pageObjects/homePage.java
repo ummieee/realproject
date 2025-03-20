@@ -19,7 +19,7 @@ public class homePage extends BasePage{
 
 public void click_add_remove_elements () {
 	WebDriverWait ew = new WebDriverWait(driver, Duration.ofSeconds(5));
-	WebElement addremove = ew.until(ExpectedConditions.elementToBeClickable(add_remove_elements));
-	addremove.click();
+	ew.until(ExpectedConditions.elementToBeClickable(add_remove_elements)).click();
+	
 }
 }

@@ -5,8 +5,9 @@
     <classes>
       <class name="testCases.AddDeleteElements">
         <methods>
-          <include name="addOrDelete"/>
+          <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="addOrDelete"/>
         </methods>
       </class> <!-- testCases.AddDeleteElements -->
     </classes>
